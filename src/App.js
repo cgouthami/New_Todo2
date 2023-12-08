@@ -16,6 +16,7 @@ export default function App() {
           setTodos([...todos, ...data]);
         }, 1000);
       });
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const addTodo = (todo) => {
