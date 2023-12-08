@@ -20,7 +20,7 @@ export function TodoForm({ addTodo }) {
         placeholder="Add new todo"
         onChange={(e) => setValue(e.target.value)}
       />
-      <button onClick={handleClick}>Add Todo</button>
+      <button onClick={handleClick}>Add Todo</button><br/><br/>
     </div>
   );
 }
